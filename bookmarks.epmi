@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<epm xmlns='http://eprints.org/ep2/data/2.0' id='http://edshare.com/id/epm/bookmarks'>
+  <epmid>bookmarks</epmid>
+  <uri>http://edshare.com/id/epm/bookmarks</uri>
+  <documents>
+    <document>
+      <format>other</format>
+      <content>install</content>
+    </document>
+  </documents>
+  <version>1.0.0</version>
+  <creators>
+    <item>
+      <name>
+        <family>Patrick</family>
+        <given>McSweeney</given>
+      </name>
+      <id>pm5@ecs.soton.ac.uk</id>
+    </item>
+  </creators>
+  <title>Bookmarks</title>
+  <description>The bookmarks plugin lets users keep a set of personal bookmarks to eprints in the repository. This aides navigation later on.</description>
+</epm>
