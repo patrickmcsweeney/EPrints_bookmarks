@@ -4,8 +4,54 @@
   <uri>http://edshare.com/id/epm/bookmarks</uri>
   <documents>
     <document>
+      <files>
+        <file>
+          <filename>epm/bookmarks/cfg/cfg.d/bookmarks.pl</filename>
+          <mime_type>text/x-c++</mime_type>
+          <hash>3a95947b46a39f242e430c5a6fe64191</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>1325</filesize>
+        </file>
+        <file>
+          <filename>epm/bookmarks/cfg/lang/en/phrases/bookmarks.xml</filename>
+          <mime_type>application/xml</mime_type>
+          <hash>61624c6369a55b3fc5e3d10cc8a1e1da</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>2996</filesize>
+        </file>
+        <file>
+          <filename>plugins/EPrints/Plugin/Screen/Bookmarks.pm</filename>
+          <mime_type>application/x-symlink</mime_type>
+          <hash>f35d6c8832331a65b7e547a028d19a73</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>7573</filesize>
+        </file>
+        <file>
+          <filename>static/images/epm/bookmarks.png</filename>
+          <mime_type>application/x-symlink</mime_type>
+          <hash>81ad5b6c862466757a9ea6b9bad83c46</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>147502</filesize>
+        </file>
+      </files>
+      <mime_type>application/x-symlink</mime_type>
       <format>other</format>
+      <main>static/images/epm/bookmarks.png</main>
       <content>install</content>
+    </document>
+    <document>
+      <files>
+        <file>
+          <filename>static/images/epm/bookmarks.png</filename>
+          <mime_type>application/x-symlink</mime_type>
+          <hash>81ad5b6c862466757a9ea6b9bad83c46</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>147502</filesize>
+        </file>
+      </files>
+      <format>image</format>
+      <main>static/images/epm/bookmarks.png</main>
+      <content>coverimage</content>
     </document>
   </documents>
   <version>1.0.0</version>
@@ -20,4 +66,5 @@
   </creators>
   <title>Bookmarks</title>
   <description>The bookmarks plugin lets users keep a set of personal bookmarks to eprints in the repository. This aides navigation later on.</description>
+  <icon>images/epm/bookmarks.png</icon>
 </epm>

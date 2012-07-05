@@ -1,3 +1,7 @@
+$c->{plugins}->{"Screen::Bookmarks"}->{params}->{disable} = 0;
+$c->{plugins}->{"Screen::Bookmarks"}->{actions}->{add}->{appears}->{eprint_actions} = 10;
+$c->{plugins}->{"Screen::Bookmarks"}->{actions}->{remove}->{appears}->{eprint_actions} = 10;
+
 $c->{datasets}->{bookmark} = {
         name => "bookmark", # name
         type => "Bookmark", # data object class
@@ -46,7 +50,7 @@ sub get_system_field_info
 
 sub get_dataset_id
 {
-	return "sneep";
+	return "bookmark";
 }
 
 }
