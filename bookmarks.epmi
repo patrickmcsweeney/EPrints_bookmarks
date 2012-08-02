@@ -1,16 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
-<epm xmlns='http://eprints.org/ep2/data/2.0' id='http://edshare.com/id/epm/bookmarks'>
+<epm xmlns='http://eprints.org/ep2/data/2.0' id='http://eprints.ubuntu/id/epm/bookmarks'>
   <epmid>bookmarks</epmid>
-  <uri>http://edshare.com/id/epm/bookmarks</uri>
+  <uri>http://eprints.ubuntu/id/epm/bookmarks</uri>
   <documents>
     <document>
       <files>
         <file>
           <filename>epm/bookmarks/cfg/cfg.d/bookmarks.pl</filename>
-          <mime_type>text/x-c++</mime_type>
+          <mime_type>text/plain</mime_type>
           <hash>3a95947b46a39f242e430c5a6fe64191</hash>
           <hash_type>MD5</hash_type>
           <filesize>1325</filesize>
+        </file>
+        <file>
+          <filename>epm/bookmarks/cfg/citations/eprint/bookmark.xml</filename>
+          <mime_type>text/html</mime_type>
+          <hash>e7db80bfbdc6012cd5c7e4842e212afd</hash>
+          <hash_type>MD5</hash_type>
+          <filesize>239</filesize>
         </file>
         <file>
           <filename>epm/bookmarks/cfg/lang/en/phrases/bookmarks.xml</filename>
@@ -21,20 +28,20 @@
         </file>
         <file>
           <filename>plugins/EPrints/Plugin/Screen/Bookmarks.pm</filename>
-          <mime_type>application/x-symlink</mime_type>
-          <hash>f35d6c8832331a65b7e547a028d19a73</hash>
+          <mime_type>inode/symlink</mime_type>
+          <hash>d500c359f3f32b9ff7a09d7c92a9c1b0</hash>
           <hash_type>MD5</hash_type>
-          <filesize>7573</filesize>
+          <filesize>7655</filesize>
         </file>
         <file>
           <filename>static/images/epm/bookmarks.png</filename>
-          <mime_type>application/x-symlink</mime_type>
+          <mime_type>inode/symlink</mime_type>
           <hash>81ad5b6c862466757a9ea6b9bad83c46</hash>
           <hash_type>MD5</hash_type>
           <filesize>147502</filesize>
         </file>
       </files>
-      <mime_type>application/x-symlink</mime_type>
+      <mime_type>inode/symlink</mime_type>
       <format>other</format>
       <main>static/images/epm/bookmarks.png</main>
       <content>install</content>
@@ -43,7 +50,7 @@
       <files>
         <file>
           <filename>static/images/epm/bookmarks.png</filename>
-          <mime_type>application/x-symlink</mime_type>
+          <mime_type>inode/symlink</mime_type>
           <hash>81ad5b6c862466757a9ea6b9bad83c46</hash>
           <hash_type>MD5</hash_type>
           <filesize>147502</filesize>
@@ -58,10 +65,17 @@
   <creators>
     <item>
       <name>
-        <family>Patrick</family>
-        <given>McSweeney</given>
+        <family>McSweeney</family>
+        <given>Patrick</given>
       </name>
       <id>pm5@ecs.soton.ac.uk</id>
+    </item>
+    <item>
+      <name>
+        <family>Taylor</family>
+        <given>Matt R</given>
+      </name>
+      <id>mrt@ecs.soton.ac.uk</id>
     </item>
   </creators>
   <title>Bookmarks</title>

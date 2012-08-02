@@ -218,9 +218,11 @@ sub _render_list
 		my $bookmark_title_cell = $repo->make_element( 'td' );
 		my $bookmark_delete_cell = $repo->make_element( 'td' );
 		
-		my $bookmark_title_link = $repo->make_element( 'a', href => $eprint->get_url );
-		$bookmark_title_link->appendChild( $repo->make_text( $eprint->get_value( 'title' ) ) );
-		$bookmark_title_cell->appendChild( $bookmark_title_link );
+#		my $bookmark_title_link = $repo->make_element( 'a', href => $eprint->get_url );
+#		$bookmark_title_link->appendChild( $repo->make_text( $eprint->get_value( 'title' ) ) );
+#		$bookmark_title_cell->appendChild( $bookmark_title_link );
+
+		$bookmark_title_cell->appendChild( $eprint->render_citation( "bookmark" ));
 		$bookmark_row->appendChild( $bookmark_title_cell );
 		
 		my %remove_bookmark_buttons = (
