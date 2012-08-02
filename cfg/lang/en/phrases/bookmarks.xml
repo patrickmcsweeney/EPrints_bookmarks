@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<!DOCTYPE phrases SYSTEM "entities.dtd">
+<epp:phrases xmlns="http://www.w3.org/1999/xhtml/"
+	xmlns:epp="http://eprints.org/ep3/phrase"
+	xmlns:epc="http://eprints.org/ep3/control">
+
+	<epp:phrase id="eprint_typename_bookmarks">Bookmarks</epp:phrase>
+
+	<epp:phrase id="Plugin/Bookmarks:title">My Bookmarks</epp:phrase>
+	<epp:phrase id="Plugin/Bookmarks:add_bookmark">Add to bookmarks</epp:phrase>
+	<epp:phrase id="Plugin/Bookmarks:remove_bookmark">Remove from bookmarks</epp:phrase>
+	<epp:phrase id="Plugin/Bookmarks:must_be_logged_in">You must be logged in to manage your bookmarks.</epp:phrase>
+
+	<epp:phrase id="Plugin/Screen/Bookmarks:title">My Bookmarks</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Bookmarks:no_bookmarks">You currently have no items bookmarked.</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Bookmarks:manage_bookmark">Manage Bookmark for <epc:pin name="eprint_title"/></epp:phrase>
+	<epp:phrase id="Plugin/Screen/Bookmarks:add_to_bookmarks_description">You currently have not bookmarked <epc:pin name="eprint_title"/>.</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Bookmarks:add_to_bookmarks">Add to Bookmarks</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Bookmarks:remove_from_bookmarks_description"><epc:pin name="eprint_title"/> is currently bookmarked.</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Bookmarks:remove_from_bookmarks">Remove from Bookmarks</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Bookmarks:remove_bookmark">Remove Bookmark</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Bookmarks:clear_bookmarks">Clear Bookmarks</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Bookmarks:bookmark_added_message"><epc:pin name="eprint_title"/> is now bookmarked.</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Bookmarks:bookmark_removed_message"><epc:pin name="eprint_title"/> is no longer bookmarked.</epp:phrase>
+
+	<epp:phrase id="Plugin/Screen/EPrint/Box/BookmarkTools:title">Bookmark Controls</epp:phrase>
+	<epp:phrase id="Plugin/Screen/EPrint/Box/BookmarkTools:manage_bookmark_if_logged_in">If logged in: <epc:pin name="bookmark_manager_link"/></epp:phrase>
+	<epp:phrase id="Plugin/Screen/EPrint/Box/BookmarkTools:manage_bookmark">Add/Remove Bookmark</epp:phrase>
+
+	<epp:phrase id="Plugin/MePrints/Widget/MyBookmarks:title">My Bookmarks</epp:phrase>
+	<epp:phrase id="Plugin/MePrints/Widget/MyBookmarks:no_bookmarks"><epc:phrase ref="Plugin/Screen/Bookmarks:no_bookmarks"/></epp:phrase>
+	<epp:phrase id="Plugin/MePrints/Widget/MyBookmarks:more">More</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Bookmarks:action:add:title">Add to Bookmarks</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Bookmarks:action:remove:title">Remove from Bookmarks</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Bookmarks:action:add:description">Bookmark this item so you can find it more easily later.</epp:phrase>
+	<epp:phrase id="Plugin/Screen/Bookmarks:action:remove:description">Remove this item from your list of bookmarks.</epp:phrase>
+
+</epp:phrases>
